@@ -8,6 +8,7 @@ js-plug
 1. 配合laravel分页的前端 table + pagination 插件
 2. 使用
 ```javascript
+
 $(".lhTable").createPage({
     header: [
         {field: 'order_id', name: '订单'},
