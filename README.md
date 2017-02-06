@@ -16,7 +16,7 @@ $(".lhTable").createPage({
     ],
     current: 1,
     perPage: 6,
-    dataUrl: 'api.example.com/getOrderList',
+    dataUrl: 'https://api.example.com/getOrderList',
     dataType: 'jsonp',
     csrfToken: $('meta[name="csrf-token"]').attr('content'),
     blankHtml: "这里是没有任何内容时候的提示"
